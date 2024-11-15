@@ -11,11 +11,11 @@ Welcome to the Car Management App 🚗! This app allows users to manage a collec
 5. **Real-Time Updates:** Displays real-time updates to the car details upon editing.
 
 ## Live Link
-[[Link to the deployed app](https://lambent-sunburst-90f601.netlify.app)]
+[[Link to the deployed app](https://idyllic-bublanina-2f1c90.netlify.app)]
 
-Frontend link : https://lambent-sunburst-90f601.netlify.app
+Frontend link : https://idyllic-bublanina-2f1c90.netlify.app
 
-Backend link : https://carapp-backend-czb0.onrender.com
+Backend link : https://backend-car-manager.onrender.com
 
 ## Getting Started
 
