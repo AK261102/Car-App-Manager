@@ -1,6 +1,5 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const cors = require('cors');
 const swaggerJsdoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 const multer = require('multer');
@@ -10,17 +9,19 @@ require('dotenv').config();
 const app = express();
 
 // Middleware
+const cors = require('cors');
+
+
 const corsOptions = { 
   origin: [
     'http://localhost:3000', 
-    'https://lambent-sunburst-90f601.netlify.app',
+    'https://idyllic-bublanina-2f1c90.netlify.app',
     'https://6736c018de29c366c40cbba4--lambent-sunburst-90f601.netlify.app'
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
-  credentials: true,
+  credentials: true
 };
-
 
 app.use(cors(corsOptions));
 app.use(express.json());
